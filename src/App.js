@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import GifList from './components/interface/GifList'
 
-function App() {
+const App = props => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <h1 className="bold text-5xl text-gray-800 mb-4"> Aplicacion de Gifs </h1>
+
+      <GifList />
+
+    </>
+  )
 }
 
-export default App;
+export default App
