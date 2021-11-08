@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/index.css","webpack://src/components/common/Spinner.css"],"names":[],"mappings":"AAAA,KACE,iBACF,CCFA,SACE,wBACF","file":"main.6a69587f.chunk.css","sourcesContent":["body {\r\n  padding: 1rem 2rem;\r\n}",".spinner {\r\n  border-top-color: #1D4ED8;\r\n}"]}
